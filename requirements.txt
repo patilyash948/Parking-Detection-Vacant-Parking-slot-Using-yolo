@@ -1,9 +1,5 @@
-torch>=1.10
-opencv-python
-numpy
-matplotlib
-Pillow
-pyyaml
-tqdm
-requests
+fastapi
+uvicorn
 ultralytics
+torch
+python-multipart
