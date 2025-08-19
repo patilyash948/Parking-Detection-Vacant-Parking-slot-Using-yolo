@@ -6,3 +6,4 @@ Pillow
 pyyaml
 tqdm
 requests
+ultralytics
