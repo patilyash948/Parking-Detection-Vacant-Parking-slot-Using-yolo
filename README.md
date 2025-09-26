@@ -18,3 +18,24 @@ The system detects vehicles in a frame and checks if they overlap with predefine
 
 ## 📂 Project Structure
 
+Parking-Detection-Vacant-Parking-slot-Using-yolo/
+├── images/ # Sample images / inputs
+├── best.pt # Trained YOLO weights (add your own)
+├── detect.py # Main detection script
+├── requirements.txt # Python dependencies
+├── parking_slots.json # Parking-slot coordinates
+├── Dockerfile # Container build file
+└── README.md # Documentation
+
+
+---
+
+## 🛠️ Installation
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/patilyash948/Parking-Detection-Vacant-Parking-slot-Using-yolo.git
+cd Parking-Detection-Vacant-Parking-slot-Using-yolo
+
+pip install -r requirements.txt
+
